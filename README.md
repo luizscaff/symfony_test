@@ -28,6 +28,7 @@ Exemplo: api/hash_results/get_hash_results/50000
 //-------------------------------------------------------------------------------------------------------------------------------------
 
 Rota para geração do hash:
+
   -Essa rota recebe como parâmetro uma string que será utilizada para a geração do hash.
 
   -Para o throttling utiliza-se a ferramenta "Rate Limiter", do próprio Symfony, fixada em 10 requisições por minuto por IP. Se houver mais de 10 requisições no intervalo de um minuto, há o retorno de uma exceção "Too Many Attempts" e do código de erro 429 (Too Many Requests).
