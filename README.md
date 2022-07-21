@@ -5,15 +5,18 @@ Olá! Eu sou o Luiz Gustavo Miquelão Scaff e essa é a minha resolução para o
 
 //-------------------------------------------------------------------------------------------------------------------------------------
 
-Rota POST para geração do hash:/api/hash_results/generate/{stringDeEntrada}
+Rota POST para geração do hash: /api/hash_results/generate/{stringDeEntrada}
+
 Exemplo: /api/hash_results/generate/brasiltecpar
 
 Command para criação em série dos hashes: hash_result:generate {stringDeEntrada} {numeroDeRequisições}
+
 Exemplo: hash_result:generate brasiltecpar 20
 
 Rota GET para retorno dos resultados armazenados no banco de dados: api/hash_results/get_hash_results
 
 Rota GET para filtragem dos hashes armazenados no banco de dados por número máximo de tentativas: api/hash_results/get_hash_results/{numeroMáximoDeTentativas?}
+
 Exemplo: api/hash_results/get_hash_results/50000
 
 //-------------------------------------------------------------------------------------------------------------------------------------
