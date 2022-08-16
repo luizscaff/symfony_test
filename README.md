@@ -1,7 +1,10 @@
 # symfony_test
-Desafio Programador PHP - Brasil TecPar
 
-Olá! Eu sou o Luiz Gustavo Miquelão Scaff e essa é a minha resolução para o Desafio Programador PHP da Brasil TecPar.
+Este projeto foi feito inicialmente como teste para uma vaga de desenvolvedor PHP.
+
+Explicação da ideia do projeto: receber uma string via parâmetro, concatenar a mesma com uma string aleatória (key) até que se gere um hash iniciado por '0000'.
+
+Não possuo experiência com Symfony.
 
 //-------------------------------------------------------------------------------------------------------------------------------------
 
